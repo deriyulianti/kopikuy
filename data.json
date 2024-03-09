@@ -49,11 +49,25 @@
     ],
     "mix": [
     {
-        "foto": "https://www.nescafe.com/id/sites/default/files/Iced_Choco_Coffee.jpg",
+        "foto": "images/produk/product_iced_choco_coffee.jpg",
         "nama": "Kopi Susu Coklat",
         "size": "100 Gram",
         "harga": "10.000",
         "link": "https://www.nescafe.com/id/sites/default/files/Iced_Choco_Coffee.jpg"
+    },
+    {
+        "foto": "images/produk/product_waffle.jpg",
+        "nama": "Waffle",
+        "size": "100 Gram",
+        "harga": "20.000",
+        "link": "https://www.google.com/search?q=p-waffle-saus-cokelat"
+    },
+    {
+        "foto": "images/produk/product_roti_bakar.jpg",
+        "nama": "Roti Bakar Pisang Keju Cokelat",
+        "size": "150 Gram",
+        "harga": "20.000",
+        "link": "https://www.google.com/search?q=roti-bakar-pisang-keju-cokelat"
     }
     ]
     
