@@ -15,6 +15,37 @@
     <style>
         /* tulis kode CSS internal di bawah sini */
 
+        *{
+            scroll-behavior: smooth;
+        }
+
+        #produk_not_found {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            height: 330px;
+            border: 1px solid #d1d1d1;
+            border-radius: 10px;
+            margin: 10px 0;
+            padding: 30px;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+        
+        #back-top {
+            top: -30px;
+            right: 40px;
+        }
+
+        @media (max-width:600px) {
+            #back-top {
+                width: fit-content;
+                top: -50px;
+                left: 50%;
+                transform: translate(-50%, 50%);
+            }
+        }
 
 
         /* Batas Akhir penulisan kode CSS internal */
@@ -48,6 +79,15 @@
                         <a class="nav-link" href="index.html#contact-us">Contact Us</a>
                     </li>
                 </ul>
+
+                <a href="cart.html" class="btn btn-outline-light position-relative">
+                    <i class="bi bi-cart4"></i>
+                    <span id="cart_icon" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        0
+                    </span>
+                </a>
+                
+                            
                 <a class="btn btn-outline-light ms-md-3" href="https://wa.me/628123456789"><i
                         class="bi bi-whatsapp"></i>
                     Chat</a>
@@ -164,8 +204,7 @@
         /* Tulis Javascript Di bawah Sini */
         baris_produk.innerHTML = ""
         var sumber = "https://rikikurnia.com/prakerja/api/kopi"
-        var  sumber2 = "data.json?v=2"
-
+        var sumber2 = "data.json?v=2"
 
         var pilihan = ""
         select_kopi.onchange = function () {
