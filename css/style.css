@@ -135,7 +135,7 @@ nav {
    untuk pengguna vscode silahkan arahkan mouse ke kotak warna di bawah
    untuk mengganti warna sesuai keinginan
    */
-   background-color: #198754;
+   background-color: #2075b6;
 
    /* box-shadow membuat efek bayangan */
    box-shadow: 0 3px 7px -2px #000;
@@ -510,13 +510,14 @@ div.kontak {
    color: green;
    text-align: center;
    margin-top: 50px;
+   
 }
 
 
 /* FOOTER */
 
 footer {
-   background-color: #198754;
+   background-color: #2075b6;
    padding-top: 15px;
    padding-bottom: 15px;
    color: #fff;
@@ -532,7 +533,7 @@ footer div.navigasi {
 footer div.navigasi a {
    padding: 8px;
    text-align: right;
-}
+   }
 
 /* UNTUK kode RESPONSIF hari ke 3 tulis DI BAWAH sini */
 
